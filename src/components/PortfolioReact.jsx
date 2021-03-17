@@ -5,7 +5,10 @@ import PortfolioTemplate from "./PortfolioTemplate"
 
 const ReactPortfolio = graphql`
   {
-    reactPortfolio: allContentfulPortfolio(filter: {projectType: {eq: "React"}}) {
+    reactPortfolio: allContentfulPortfolio(
+      filter: {projectType: {eq: "React"}}
+      sort: {order: ASC, fields: id}
+    ) {
       edges {
         node {
           id

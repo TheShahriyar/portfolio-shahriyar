@@ -5,7 +5,10 @@ import PortfolioTemplate from "./PortfolioTemplate"
 
 const HTMLPortfolio = graphql`
   {
-    htmlPortfolio: allContentfulPortfolio(filter: {projectType: {eq: "HTML"}}) {
+    htmlPortfolio: allContentfulPortfolio(
+      filter: {projectType: {eq: "HTML"}}
+      sort: {order: DESC, fields: id}
+    ) {
       edges {
         node {
           id
