@@ -12,14 +12,12 @@ const ReactPortfolio = graphql`
           title
           portfolioDemoLink
           projectType
-          projectTechnology {
-            projectTechnology
-          }
           portfolioImage {
             fluid {
               ...GatsbyContentfulFluid_tracedSVG
             }
           }
+          projectTechnology
         }
       }
     }

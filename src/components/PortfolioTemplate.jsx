@@ -16,7 +16,7 @@ const PortfolioTemplate = ({ items }) => {
             <Img fluid={items.portfolioImage.fluid} alt="theshahriyar" />
             <div className="project-details">
               <p>{items.title}</p>
-              <p className="tech">{items.projectTechnology.projectTechnology}</p>
+              <p className="tech">{items.projectTechnology}</p>
             </div>
           </a>
         </div>
