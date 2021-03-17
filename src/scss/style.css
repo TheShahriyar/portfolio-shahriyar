@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css?family=Kaushan+Script|Open+Sans:300,400,400i,600,700&display=swap");
+@import "./global.css";
+
+/*--------------------------------------
+// Start Banner Section
+//-------------------------------------- */
+.preview-banner {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.preview-banner h1 {
+  font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive !important;
+  font-size: 70px;
+  line-height: 90px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  text-transform: none !important;
+  color: #1cbac8 !important;
+}
+
+.preview-banner h4 {
+  margin-bottom: 50px;
+  font-size: 22px;
+  text-transform: none;
+  color: #fff;
+  font-weight: normal;
+  font-style: italic;
+}
+
+.preview-banner.white h1,
+.preview-banner.white p {
+  color: #fff;
+}
+
+.preview-banner.primary h1,
+.preview-banner.primary p {
+  color: #1cbac8;
+}
+
+/* //------------------------------------
+// Start About Section
+//------------------------------------ */
+
+.about-section img {
+  width: 230px !important;
+  height: auto !important;
+  border-radius: 50%;
+  text-align: center;
+  display: inline-block;
+}
+
+.about-section .gatsby-image-wrapper {
+  max-width: 230px;
+  margin: 0 auto;
+}
+
+.about-section .social-links {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.about-section .social-links li {
+  display: inline-block;
+  margin-right: 25px;
+}
+.about-section .social-links li:last-child {
+  margin-right: 0;
+}
+
+.about-section .social-links li a {
+  color: #222;
+  font-size: 18px;
+}
+
+.about-section .about-text p {
+  font-size: 16px;
+}
+
+.about-section .skill-list {
+  margin-top: 30px;
+}
+
+.about-section .skill-list li {
+  display: inline-block;
+  font-size: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  color: #fe4157;
+}
+
+.about-section .skill-list li:after {
+  content: ",";
+}
+
+/* Product Showcase Section */
+
+.product-showcase {
+  margin-bottom: 30px;
+}
+
+.product-showcase img {
+  width: 100%;
+}
+
+.project-details {
+  border: 1px solid #ccc;
+  border-top: 0;
+  padding: 15px;
+}
+
+.product-showcase .project-details li {
+  display: inline-block;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.product-showcase .project-details li:after {
+  content: ",";
+}
+
+.product-showcase .project-details li:last-child:after {
+  content: "";
+}
+
+/* //------------------------------------
+// Start Call to Action Section
+//------------------------------------ */
+
+.call-to-action-2 h3 {
+  font-size: 52px;
+  text-transform: uppercase;
+  margin-bottom: 36px;
+  font-weight: 700;
+}
+
+.call-to-action-2 h3 span {
+  color: #1cbac8;
+  text-transform: none;
+  font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive !important;
+}
+
+.call-to-action-2 p {
+  padding: 0 10%;
+  margin-bottom: 40px;
+  font-size: 16px;
+}
+
+.call-to-action-2.white h3,
+.call-to-action-2.white p {
+  color: #fff;
+}
+
+.footer-minimal h3 {
+  font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive !important;
+  color: #fff;
+  text-transform: none;
+  margin-bottom: 30px;
+  font-weight: normal;
+}
+
+.footer-minimal a {
+  color: #fff;
+  font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive !important;
+}

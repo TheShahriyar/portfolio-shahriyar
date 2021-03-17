@@ -1,0 +1,357 @@
+/* //Global Styles Start */
+
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #333;
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  overflow-x: hidden;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+}
+
+#container {
+  background: #fff;
+  position: relative;
+  overflow-x: hidden;
+  margin: 0 auto;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.fa-ul {
+  margin-left: 22px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+  color: #333;
+  /* letter-spacing: 1.5px; */
+  font-family: "Open Sans", sans-serif !important;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}
+.text-center {
+  text-align: center;
+}
+
+.text-brand-color {
+  color: #1cbac8;
+}
+
+.img-center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.circle {
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
+}
+
+.white {
+  color: #fff !important;
+}
+
+a {
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-decoration: none;
+  cursor: pointer;
+}
+a:hover {
+  text-decoration: none;
+}
+a:focus {
+  text-decoration: none;
+  color: #333;
+  outline: 0;
+}
+
+::-moz-selection {
+  background: #1cbac8;
+  color: #fff;
+  text-shadow: none;
+  outline: none;
+}
+
+::selection {
+  background: #1cbac8;
+  color: #fff;
+  text-shadow: none;
+  outline: none;
+}
+
+.main-container {
+  overflow: hidden;
+}
+.dropcap {
+  font-size: 38px;
+  font-weight: 400;
+  line-height: 58px;
+  float: left;
+  width: 60px;
+  height: 60px;
+  padding: 0 10px 0 14px;
+}
+
+.dropcap.bg {
+  margin-right: 25px;
+  margin-bottom: 0;
+  color: #fff;
+  background: #1cbac8;
+  text-align: center;
+  color: #fff;
+}
+
+.dropcap.circle {
+  border-radius: 50%;
+}
+
+.dropcap.rounded {
+  border-radius: 5px;
+}
+
+hr {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.btn {
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.btn-primary {
+  color: #ffffff;
+  background: transparent;
+  font-size: 12px;
+  /* font-weight: 700; */
+  text-transform: uppercase;
+  border: 1px solid #fff;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+  padding: 8px 48px;
+}
+
+.btn-primary:hover {
+  background: #1cbac8;
+  border-color: #1cbac8;
+  color: #fff;
+}
+
+/* // Navbar Fixed Top */
+
+.navbar-fixed-top {
+  position: fixed !important;
+  right: 0;
+  left: 0;
+  z-index: 1100;
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+  animation-duration: 0.8s;
+  -webkit-animation-duration: 0.8s;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-timing-function: ease-in-out;
+}
+
+/* //margins start */
+.mt60 {
+  margin-top: 60px;
+}
+.mt65 {
+  margin-top: 65px;
+}
+.mt30 {
+  margin-top: 30px;
+}
+.mt25 {
+  margin-top: 25px;
+}
+.mb15 {
+  margin-bottom: 15px;
+}
+.mb30 {
+  margin-bottom: 30px;
+}
+.mb40 {
+  margin-bottom: 40px;
+}
+.mb60 {
+  margin-bottom: 60px;
+}
+.mr10 {
+  margin-right: 10px;
+}
+/* //margins end
+//paddings start */
+.pad15 {
+  padding: 15px 0;
+}
+.pad30 {
+  padding: 30px 0;
+}
+.pad50 {
+  padding: 50px 0;
+}
+.pad60 {
+  padding: 60px 0;
+}
+.pad80 {
+  padding: 80px 0;
+}
+.pad100 {
+  padding: 100px 0;
+}
+.pad120 {
+  padding: 120px 0;
+}
+
+.pad-t100 {
+  padding-top: 100px;
+}
+.pad-t80 {
+  padding-top: 80px;
+}
+.pad-t30 {
+  padding-top: 30px;
+}
+.pad-t50 {
+  padding-top: 50px;
+}
+.pad-t60 {
+  padding-top: 60px;
+}
+.pad-t90 {
+  padding-top: 90px;
+}
+.pad-t120 {
+  padding-top: 120px;
+}
+.pad-b30 {
+  padding-bottom: 30px;
+}
+.pad-b40 {
+  padding-bottom: 40px;
+}
+.pad-b50 {
+  padding-bottom: 50px;
+}
+.pad-b60 {
+  padding-bottom: 60px;
+}
+.pad-b70 {
+  padding-bottom: 70px;
+}
+.pad-b80 {
+  padding-bottom: 80px;
+}
+.pad-b100 {
+  padding-bottom: 100px;
+}
+/* //paddings start */
+
+.section-title {
+  position: relative;
+  margin: 0 0 80px;
+}
+
+.section-title h3 {
+  position: relative;
+  font-size: 35px;
+  line-height: 42px;
+  color: #333;
+  font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive !important;
+  text-transform: none;
+}
+
+.section-title h3 span {
+  color: #1cbac8 !important;
+}
+
+.section-title h3:after {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 37px;
+  height: 1px;
+  margin: -20px auto;
+  content: "";
+  opacity: 1;
+  background: #333;
+}
+
+.section-title p {
+  max-width: 840px;
+  margin: 40px auto 0;
+}
+
+.section-title.white h3 {
+  color: #fff;
+}
+.section-title.white h3:after {
+  background: #fff !important;
+}
+
+.section-title.left h3:after {
+  left: 0;
+  right: 100%;
+}
+
+.section-title.small {
+  margin: 0 0 40px;
+}
+
+.section-title.small h3 {
+  font-size: 28px;
+}
+
+.footer-title h3 {
+  font-size: 17px;
+  text-transform: uppercase;
+  color: #ffffff;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.parallax {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50% 0;
+  background-size: cover;
+}
+
+.shadow {
+  box-shadow: -25px 0 30px -15px rgba(0, 0, 0, 0.15),
+    25px 0 30px -15px rgba(0, 0, 0, 0.15);
+}
+
+/* //Global Styles End */
